@@ -2,6 +2,7 @@ package regras.negocio;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Vector;
 
 public class Utilitarios {
     
@@ -124,6 +125,44 @@ public class Utilitarios {
             soma += combinacao[numeros];
         }   
         return soma;
+    }
+    
+    //Ordena cartela por ordem crescente
+    public static Integer[] ordenarCartela(Integer vetor[]) {
+
+        ArrayList<Integer> jogo = new ArrayList<Integer>();
+        for (int cont1 = 0; cont1 < vetor.length; cont1++) {
+            jogo.add(vetor[cont1]);
+        }
+        Collections.sort(jogo);
+        for (int cont1 = 0; cont1 < vetor.length; cont1++) {
+            vetor[cont1] = jogo.get(cont1);
+        }
+        
+        return vetor;
+    }
+    
+    //Recebe o minimo o maximo e a quantidade de números que quer.
+    public static Integer[] gerarRandom(int min, int max, int qntNumerosGerados){
+        
+	Vector<Integer> numbers = new Vector<Integer>();
+	Integer[] result = new Integer[qntNumerosGerados];
+
+	while(numbers.size() < qntNumerosGerados){
+            
+            int rand = (int) (Math.floor(Math.random() * (max - min)) + min);
+            if(! numbers.contains(rand)){
+                
+                numbers.add(rand);
+            }
+        }
+        
+        Collections.sort(numbers);
+        
+        for (int number = 0; number < numbers.size(); number++){
+            result[number] = numbers.get(number);
+        }
+        return result;
     }
 
 }

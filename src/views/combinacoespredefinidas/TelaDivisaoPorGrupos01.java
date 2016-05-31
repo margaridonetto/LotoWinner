@@ -305,6 +305,8 @@ public class TelaDivisaoPorGrupos01 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setText("Quantidade:");
 
+        jTextFieldQuantNum.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+
         jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
         jMenuBar1.setToolTipText("");
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -608,244 +610,574 @@ public class TelaDivisaoPorGrupos01 extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField03ActionPerformed
 
     private void jTextField01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField01MouseClicked
-        if (quantidade < 18) {
-            jTextField01.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField01.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField01.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField01.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField01MouseClicked
 
     private void jTextField02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField02MouseClicked
-        if (quantidade < 18) {
-            jTextField02.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField02.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField02.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField02.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField02MouseClicked
 
     private void jTextField03MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField03MouseClicked
-        if (quantidade < 18) {
-            jTextField03.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField03.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField03.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField03.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField03MouseClicked
 
     private void jTextField04MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField04MouseClicked
-        if (quantidade < 18) {
-            jTextField04.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField04.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField04.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField04.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField04MouseClicked
 
     private void jTextField05MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField05MouseClicked
-        if (quantidade < 18) {
-            jTextField05.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField05.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField05.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField05.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField05MouseClicked
 
     private void jTextField06MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField06MouseClicked
-        if (quantidade < 18) {
-            jTextField06.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField06.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField06.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField06.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField06MouseClicked
 
     private void jTextField07MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField07MouseClicked
-        if (quantidade < 18) {
-            jTextField07.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField07.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField07.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField07.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField07MouseClicked
 
     private void jTextField08MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField08MouseClicked
-        if (quantidade < 18) {
-            jTextField08.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField08.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField08.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField08.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField08MouseClicked
 
     private void jTextField09MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField09MouseClicked
-        if (quantidade < 18) {
-            jTextField09.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField09.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField09.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField09.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField09MouseClicked
 
     private void jTextField10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField10MouseClicked
-        if (quantidade < 18) {
-            jTextField10.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField10.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField10.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField10.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField10MouseClicked
 
     private void jTextField11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField11MouseClicked
-        if (quantidade < 18) {
-            jTextField11.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField11.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField11.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField11.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField11MouseClicked
 
     private void jTextField12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField12MouseClicked
-        if (quantidade < 18) {
-            jTextField12.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField12.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField12.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField12.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField12MouseClicked
 
     private void jTextField13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField13MouseClicked
-        if (quantidade < 18) {
-            jTextField13.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField13.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField13.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField13.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField13MouseClicked
 
     private void jTextField14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField14MouseClicked
-        if (quantidade < 18) {
-            jTextField14.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField14.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField14.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField14.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField14MouseClicked
 
     private void jTextField15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField15MouseClicked
-        if (quantidade < 18) {
-            jTextField15.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField15.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField15.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField15.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField15MouseClicked
 
     private void jTextField16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField16MouseClicked
-        if (quantidade < 18) {
-            jTextField16.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField16.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField16.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField16.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField16MouseClicked
 
     private void jTextField17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField17MouseClicked
-        if (quantidade < 18) {
-            jTextField17.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField17.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField17.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField17.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField17MouseClicked
 
     private void jTextField18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField18MouseClicked
-        if (quantidade < 18) {
-            jTextField18.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField18.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField18.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField18.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField18MouseClicked
 
     private void jTextField19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField19MouseClicked
-        if (quantidade < 18) {
-            jTextField19.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField19.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField19.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField19.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField19MouseClicked
 
     private void jTextField20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField20MouseClicked
-        if (quantidade < 18) {
-            jTextField20.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField20.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField20.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField20.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField20MouseClicked
 
     private void jTextField21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField21MouseClicked
-        if (quantidade < 18) {
-            jTextField21.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField21.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField21.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField21.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField21MouseClicked
 
     private void jTextField22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField22MouseClicked
-        if (quantidade < 18) {
-            jTextField22.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField22.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField22.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField22.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField22MouseClicked
 
@@ -854,8 +1186,12 @@ public class TelaDivisaoPorGrupos01 extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField23MouseEntered
 
     private void jTextField23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField23MouseClicked
-
-        boolean clicou = true;
+        boolean clicou;
+        if (jTextField23.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
 
         if (clicou) {
 
@@ -867,28 +1203,63 @@ public class TelaDivisaoPorGrupos01 extends javax.swing.JFrame {
             } else {
                 JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
             }
+        } else {
+            jTextField23.setBackground(Color.white);
+            quantidade--;
+            String quant = "" + quantidade;
+            jTextFieldQuantNum.setText(quant);
         }
     }//GEN-LAST:event_jTextField23MouseClicked
 
     private void jTextField24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField24MouseClicked
-        if (quantidade < 18) {
-            jTextField24.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField24.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField24.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField24.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField24MouseClicked
 
     private void jTextField25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField25MouseClicked
-        if (quantidade < 18) {
-            jTextField25.setBackground(Color.green);
-            quantidade++;
+        boolean clicou;
+        if (jTextField25.getBackground() == Color.green) {
+            clicou = false;
+        } else {
+            clicou = true;
+        }
+
+        if (clicou) {
+
+            if (quantidade < 18) {
+                jTextField25.setBackground(Color.green);
+                quantidade++;
+                String quant = "" + quantidade;
+                jTextFieldQuantNum.setText(quant);
+            } else {
+                JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
+            }
+        } else {
+            jTextField25.setBackground(Color.white);
+            quantidade--;
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
-        } else {
-            JOptionPane.showMessageDialog(null, "São Permitidos apenas 18 números!");
         }
     }//GEN-LAST:event_jTextField25MouseClicked
 

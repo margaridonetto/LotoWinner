@@ -8,9 +8,9 @@ public class SortePorNumeros {
         
     }
     
-    public  Integer[] geraCartela20Numeros(ArrayList<Integer> numerosSelecionados){
-        Integer[] cartelaPronta = new Integer[15];
-        Integer[] numerosAleatorios = Utilitarios.gerarRandom(0, 20, 15); //Gera 15  numeros rand de 0 a 19
+    public  int[] geraCartela20Numeros(ArrayList<Integer> numerosSelecionados){
+        int[] cartelaPronta = new int[15];
+        int[] numerosAleatorios = Utilitarios.gerarRandom(0, 20, 15); //Gera 15  numeros rand de 0 a 19
         
         for (int i = 0; i < 15; i++) {
             cartelaPronta[i] = numerosSelecionados.get(numerosAleatorios[i]); // Pega os números rand sorteando nos números do usuario  
@@ -19,9 +19,9 @@ public class SortePorNumeros {
         return Utilitarios.ordenarCartela(cartelaPronta); //Retorna a cartela pronta
     }
     
-    public  Integer[] geraCartela22Numeros(ArrayList<Integer> numerosSelecionados){
-        Integer[] cartelaPronta = new Integer[15];
-        Integer[] numerosAleatorios = Utilitarios.gerarRandom(0, 22, 15);
+    public  int[] geraCartela22Numeros(ArrayList<Integer> numerosSelecionados){
+        int[] cartelaPronta = new int[15];
+        int[] numerosAleatorios = Utilitarios.gerarRandom(0, 22, 15);
         
         for (int i = 0; i < 15; i++) {
             cartelaPronta[i] = numerosSelecionados.get(numerosAleatorios[i]);     
@@ -30,3 +30,4 @@ public class SortePorNumeros {
         return Utilitarios.ordenarCartela(cartelaPronta);
     }
 }
+

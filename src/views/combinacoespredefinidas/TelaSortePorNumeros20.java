@@ -1497,16 +1497,16 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             SortePorNumeros sorte = new SortePorNumeros();
             int combinacaos[] = new int[15];
             
-            combinacaos = sorte.geraCartela20Numeros(numerosSelecionados);
+            combinacaos = sorte.gera01Cartela20Numeros(numerosSelecionados);
             String combinacaoPronta01 = Utilitarios.adicionarZero(combinacaos);
             
-            combinacaos = sorte.geraCartela20Numeros(numerosSelecionados);
+            combinacaos = sorte.gera02Cartela20Numeros(numerosSelecionados);
             String combinacaoPronta02 = Utilitarios.adicionarZero(combinacaos);
             
-            combinacaos = sorte.geraCartela20Numeros(numerosSelecionados);
+            combinacaos = sorte.gera03Cartela20Numeros(numerosSelecionados);
             String combinacaoPronta03 = Utilitarios.adicionarZero(combinacaos);
             
-            combinacaos = sorte.geraCartela20Numeros(numerosSelecionados);
+            combinacaos = sorte.gera04Cartela20Numeros(numerosSelecionados);
             String combinacaoPronta04 = Utilitarios.adicionarZero(combinacaos);
             
             

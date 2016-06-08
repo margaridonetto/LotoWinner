@@ -562,6 +562,11 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         buttonGroupSovaIntervalos.add(jRadioButtonSomaIntervalo2);
         jRadioButtonSomaIntervalo2.setSelected(true);
         jRadioButtonSomaIntervalo2.setText("184 ~ 199");
+        jRadioButtonSomaIntervalo2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButtonSomaIntervalo2ActionPerformed(evt);
+            }
+        });
 
         buttonGroupSovaIntervalos.add(jRadioButtonSomaIntervalo4);
         jRadioButtonSomaIntervalo4.setText("216 ~ 231");
@@ -1004,7 +1009,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                             .addComponent(jTextFieldConfiancaCombinacao, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                         .addComponent(jPanel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
@@ -1819,6 +1824,10 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField17ActionPerformed
+
+    private void jRadioButtonSomaIntervalo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonSomaIntervalo2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButtonSomaIntervalo2ActionPerformed
 
     /**
      * @param args the command line arguments

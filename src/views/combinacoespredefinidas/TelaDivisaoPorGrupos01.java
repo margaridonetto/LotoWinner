@@ -305,7 +305,13 @@ public class TelaDivisaoPorGrupos01 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setText("Quantidade:");
 
+        jTextFieldQuantNum.setEditable(false);
         jTextFieldQuantNum.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jTextFieldQuantNum.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldQuantNumActionPerformed(evt);
+            }
+        });
 
         jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
         jMenuBar1.setToolTipText("");
@@ -1262,6 +1268,10 @@ public class TelaDivisaoPorGrupos01 extends javax.swing.JFrame {
             jTextFieldQuantNum.setText(quant);
         }
     }//GEN-LAST:event_jTextField25MouseClicked
+
+    private void jTextFieldQuantNumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldQuantNumActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldQuantNumActionPerformed
 
     /**
      * @param args the command line arguments

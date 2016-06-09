@@ -119,14 +119,6 @@ public class Utilitarios {
         return combinacao;
     }
     
-    public static int somatoria(int combinacao[]){
-        int soma = 0;
-        for(int numeros = 0; numeros < combinacao.length; numeros++){
-            soma += combinacao[numeros];
-        }   
-        return soma;
-    }
-    
     //Ordena cartela por ordem crescente
     public static Integer[] ordenarCartela(Integer vetor[]) {
 

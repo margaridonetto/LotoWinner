@@ -14,6 +14,7 @@ import javax.swing.JOptionPane;
 import regras.negocio.Utilitarios;
 import preferencias.GerarCombinacaoDuasPreferencias;
 import preferencias.ParesImpares;
+import preferencias.Somatoria;
 import preferencias.UltimoSorteio;
 
 /**
@@ -97,6 +98,8 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         jRadioButtonSomaIntervalo2 = new javax.swing.JRadioButton();
         jRadioButtonSomaIntervalo4 = new javax.swing.JRadioButton();
         jRadioButtonSomaIntervalo3 = new javax.swing.JRadioButton();
+        jTextFieldSomatoria = new javax.swing.JTextField();
+        jLabel15 = new javax.swing.JLabel();
         jTextFieldComb1 = new javax.swing.JTextField();
         jPanel5 = new javax.swing.JPanel();
         jRadioButtonPriorizarDezenasSim = new javax.swing.JRadioButton();
@@ -574,6 +577,8 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel15.setText("Somatória:");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -581,15 +586,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel9)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jRadioButtonSomatoriaSim)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jRadioButtonSomatoriaNao)))
-                        .addGap(34, 34, 34)
-                        .addComponent(jLabel11))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -599,9 +595,23 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                             .addComponent(jRadioButtonSomaIntervalo3))
                         .addGap(36, 36, 36)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 318, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 318, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel10))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel9)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jRadioButtonSomatoriaSim)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jRadioButtonSomatoriaNao)))
+                        .addGap(34, 34, 34)
+                        .addComponent(jLabel11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel15)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jTextFieldSomatoria, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(29, 29, 29))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -622,7 +632,10 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel11)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel11)
+                    .addComponent(jTextFieldSomatoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel10)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1004,7 +1017,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                             .addComponent(jTextFieldConfiancaCombinacao, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                         .addComponent(jPanel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
@@ -1348,6 +1361,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         } else {
             ultimoSorteio.setQuantRepetidos(ParesImpares.gerarNumero(7, 11));
         }
+        int soma;
         int sorteioAnterior[] = new int[15];
         int combinacaos[] = new int[15];
         int excluir[] = new int[2];
@@ -1673,6 +1687,8 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         Utilitarios.ordenar(combinacaos);
         combinacao = Utilitarios.adicionarZero(combinacaos);
         jTextFieldComb1.setText(combinacao);
+        soma = Somatoria.somatoria(combinacaos);
+        jTextFieldSomatoria.setText(Integer.toString(soma));
         for (int cont = 0; cont < 15; cont++) {
             if (combinacaos[cont] == 0) {
                 jTextField01.setBackground(Color.green);
@@ -1877,6 +1893,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -1970,5 +1987,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField25;
     private javax.swing.JTextField jTextFieldComb1;
     private javax.swing.JTextField jTextFieldConfiancaCombinacao;
+    private javax.swing.JTextField jTextFieldSomatoria;
     // End of variables declaration//GEN-END:variables
 }

@@ -47,7 +47,7 @@ public class GerarCombinacaoDuasPreferencias {
                         numerosNaCombinacao++;
                         impar++;
                     } else {
-                        System.out.println("Problemas ao priorizar números");
+                        System.out.println("Problemas ao excluir números");
                     }
                 }
             }

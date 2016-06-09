@@ -13,7 +13,7 @@ import views.cadastro.user.TelaLogin;
 public class TelaCombinacoes18Numeros extends javax.swing.JFrame {
 
     private int quantidade = 0;
-
+    
     /**
      * Creates new form TelaDivisaoPorGrupos01
      */
@@ -351,7 +351,7 @@ public class TelaCombinacoes18Numeros extends javax.swing.JFrame {
         jLabel3.setText("Combinação 18 números: Se os 15 números sorteados estiverem entre os 18 escolhidos,");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel4.setText(" garantia de 14 acertos em uma das combinações");
+        jLabel4.setText(" garantia de 13 acertos em uma das combinações");
 
         jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
         jMenuBar1.setToolTipText("");
@@ -626,7 +626,7 @@ public class TelaCombinacoes18Numeros extends javax.swing.JFrame {
                         .addComponent(jTextFieldComb6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(45, 45, 45)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(44, Short.MAX_VALUE))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
 
         pack();
@@ -1364,6 +1364,8 @@ public class TelaCombinacoes18Numeros extends javax.swing.JFrame {
         }else{
             if(18-quantidade==1){
             JOptionPane.showMessageDialog(null, "Voce deve escolher mais " + (18-quantidade) + " número!");
+            }else if(18-quantidade==18){
+            JOptionPane.showMessageDialog(null, "Voce deve escolher " + (18-quantidade) + " número!");
             }else{
             JOptionPane.showMessageDialog(null, "Voce deve escolher mais " + (18-quantidade) + " números!");    
             }

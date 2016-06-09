@@ -96,6 +96,8 @@ public class SortePorNumeros {
         return Utilitarios.ordenarCartela(cartelaPronta); //Retorna a cartela pronta
     }
     
+    ///////////////////////////////////////////////
+    
     public  int[] gera01Cartela22Numeros(ArrayList<Integer> numerosSelecionados){
         int[] cartelaPronta = new int[15];
  
@@ -183,5 +185,6 @@ public class SortePorNumeros {
         
         return Utilitarios.ordenarCartela(cartelaPronta); //Retorna a cartela pronta
     }
-    
+    //Júnior
 }
+

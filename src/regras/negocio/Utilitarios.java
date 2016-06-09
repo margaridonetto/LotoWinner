@@ -119,8 +119,21 @@ public class Utilitarios {
         return combinacao;
     }
     
+<<<<<<< HEAD
     //Ordena cartela por ordem crescente
     public static Integer[] ordenarCartela(Integer vetor[]) {
+=======
+    public static int somatoria(int combinacao[]){
+        int soma = 0;
+        for(int numeros = 0; numeros < combinacao.length; numeros++){
+            soma += combinacao[numeros];
+        }   
+        return soma;
+    }
+    
+    //Ordena cartela por ordem crescente
+    public static int[] ordenarCartela(int vetor[]) {
+>>>>>>> b77eeab93c403cbfdd6889f99062874099d95ace
 
         ArrayList<Integer> jogo = new ArrayList<Integer>();
         for (int cont1 = 0; cont1 < vetor.length; cont1++) {
@@ -135,10 +148,17 @@ public class Utilitarios {
     }
     
     //Recebe o minimo o maximo e a quantidade de números que quer.
+<<<<<<< HEAD
     public static Integer[] gerarRandom(int min, int max, int qntNumerosGerados){
         
 	Vector<Integer> numbers = new Vector<Integer>();
 	Integer[] result = new Integer[qntNumerosGerados];
+=======
+    public static int[] gerarRandom(int min, int max, int qntNumerosGerados){
+        
+	Vector<Integer> numbers = new Vector<Integer>();
+	int[] result = new int[qntNumerosGerados];
+>>>>>>> b77eeab93c403cbfdd6889f99062874099d95ace
 
 	while(numbers.size() < qntNumerosGerados){
             

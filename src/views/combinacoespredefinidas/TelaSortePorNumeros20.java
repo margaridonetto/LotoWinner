@@ -19,7 +19,7 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jTextField01 = new javax.swing.JTextField();
@@ -373,7 +373,7 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Escolha 20 números de sua preferência que vamos gerar 4 possíveis cartelas para você jogar!");
 
-        jLabel5.setText("Será gerado 4 combinaçõens de 15 números cada, usando os números que você digitou e nossa base de dados de sorteios anteriores.");
+        jLabel5.setText("Será gerado 4 combinaçõens de 15 números cada, usando os números que você escolheu e garante 11 e 12  acertos se acertar os 15.");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -617,7 +617,6 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -669,63 +668,63 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
                         .addComponent(resultadoCombinacao03, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(25, 25, 25)
                         .addComponent(resultadoCombinacao04, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28))
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem7ActionPerformed
+    }                                          
 
-    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem3ActionPerformed
+    }                                          
 
-    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         TelaCincoPorCinco telaGerarCombinacoes = new TelaCincoPorCinco();
         telaGerarCombinacoes.setVisible(true);
-    }//GEN-LAST:event_jMenuItem4ActionPerformed
+    }                                          
 
-    private void jMenuItem1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem1MouseClicked
+    private void jMenuItem1MouseClicked(java.awt.event.MouseEvent evt) {                                        
 
-    }//GEN-LAST:event_jMenuItem1MouseClicked
+    }                                       
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
+    }                                          
 
-    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         TelaCadUsuario telaCadUsuario = new TelaCadUsuario();
         telaCadUsuario.setVisible(true);
-    }//GEN-LAST:event_jMenuItem10ActionPerformed
+    }                                           
 
-    private void jMenu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu5ActionPerformed
+    private void jMenu5ActionPerformed(java.awt.event.ActionEvent evt) {                                       
 
-    }//GEN-LAST:event_jMenu5ActionPerformed
+    }                                      
 
-    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
+    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         TelaLogin telaLogin = new TelaLogin();
         telaLogin.setVisible(true);
-    }//GEN-LAST:event_jMenuItem11ActionPerformed
+    }                                           
 
-    private void jMenu6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu6ActionPerformed
+    private void jMenu6ActionPerformed(java.awt.event.ActionEvent evt) {                                       
 
-    }//GEN-LAST:event_jMenu6ActionPerformed
+    }                                      
 
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {                                           
 
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
+    }                                          
 
-    private void jMenu7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu7MouseClicked
+    private void jMenu7MouseClicked(java.awt.event.MouseEvent evt) {                                    
 
         System.exit(0);
-    }//GEN-LAST:event_jMenu7MouseClicked
+    }                                   
 
-    private void jTextField01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField01MouseClicked
+    private void jTextField01MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField01.getBackground() == Color.green) {
             clicou = false;
@@ -749,13 +748,13 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField01MouseClicked
+    }                                         
 
-    private void jTextField01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField01ActionPerformed
+    private void jTextField01ActionPerformed(java.awt.event.ActionEvent evt) {                                             
 
-    }//GEN-LAST:event_jTextField01ActionPerformed
+    }                                            
 
-    private void jTextField06MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField06MouseClicked
+    private void jTextField06MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField06.getBackground() == Color.green) {
             clicou = false;
@@ -779,9 +778,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField06MouseClicked
+    }                                         
 
-    private void jTextField11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField11MouseClicked
+    private void jTextField11MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField11.getBackground() == Color.green) {
             clicou = false;
@@ -805,9 +804,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField11MouseClicked
+    }                                         
 
-    private void jTextField16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField16MouseClicked
+    private void jTextField16MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField16.getBackground() == Color.green) {
             clicou = false;
@@ -831,9 +830,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField16MouseClicked
+    }                                         
 
-    private void jTextField21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField21MouseClicked
+    private void jTextField21MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField21.getBackground() == Color.green) {
             clicou = false;
@@ -857,9 +856,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField21MouseClicked
+    }                                         
 
-    private void jTextField22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField22MouseClicked
+    private void jTextField22MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField22.getBackground() == Color.green) {
             clicou = false;
@@ -883,9 +882,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField22MouseClicked
+    }                                         
 
-    private void jTextField17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField17MouseClicked
+    private void jTextField17MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField17.getBackground() == Color.green) {
             clicou = false;
@@ -909,13 +908,13 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField17MouseClicked
+    }                                         
 
-    private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
+    private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField17ActionPerformed
+    }                                            
 
-    private void jTextField12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField12MouseClicked
+    private void jTextField12MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField12.getBackground() == Color.green) {
             clicou = false;
@@ -939,9 +938,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField12MouseClicked
+    }                                         
 
-    private void jTextField07MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField07MouseClicked
+    private void jTextField07MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField07.getBackground() == Color.green) {
             clicou = false;
@@ -965,9 +964,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField07MouseClicked
+    }                                         
 
-    private void jTextField02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField02MouseClicked
+    private void jTextField02MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField02.getBackground() == Color.green) {
             clicou = false;
@@ -991,13 +990,13 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField02MouseClicked
+    }                                         
 
-    private void jTextField02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField02ActionPerformed
+    private void jTextField02ActionPerformed(java.awt.event.ActionEvent evt) {                                             
 
-    }//GEN-LAST:event_jTextField02ActionPerformed
+    }                                            
 
-    private void jTextField03MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField03MouseClicked
+    private void jTextField03MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField03.getBackground() == Color.green) {
             clicou = false;
@@ -1021,13 +1020,13 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField03MouseClicked
+    }                                         
 
-    private void jTextField03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField03ActionPerformed
+    private void jTextField03ActionPerformed(java.awt.event.ActionEvent evt) {                                             
 
-    }//GEN-LAST:event_jTextField03ActionPerformed
+    }                                            
 
-    private void jTextField08MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField08MouseClicked
+    private void jTextField08MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField08.getBackground() == Color.green) {
             clicou = false;
@@ -1051,9 +1050,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField08MouseClicked
+    }                                         
 
-    private void jTextField09MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField09MouseClicked
+    private void jTextField09MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField09.getBackground() == Color.green) {
             clicou = false;
@@ -1077,9 +1076,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField09MouseClicked
+    }                                         
 
-    private void jTextField04MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField04MouseClicked
+    private void jTextField04MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField04.getBackground() == Color.green) {
             clicou = false;
@@ -1103,9 +1102,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField04MouseClicked
+    }                                         
 
-    private void jTextField05MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField05MouseClicked
+    private void jTextField05MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField05.getBackground() == Color.green) {
             clicou = false;
@@ -1129,9 +1128,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField05MouseClicked
+    }                                         
 
-    private void jTextField10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField10MouseClicked
+    private void jTextField10MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField10.getBackground() == Color.green) {
             clicou = false;
@@ -1155,9 +1154,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField10MouseClicked
+    }                                         
 
-    private void jTextField15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField15MouseClicked
+    private void jTextField15MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField15.getBackground() == Color.green) {
             clicou = false;
@@ -1181,9 +1180,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField15MouseClicked
+    }                                         
 
-    private void jTextField14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField14MouseClicked
+    private void jTextField14MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField14.getBackground() == Color.green) {
             clicou = false;
@@ -1207,13 +1206,13 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField14MouseClicked
+    }                                         
 
-    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField14ActionPerformed
+    }                                            
 
-    private void jTextField13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField13MouseClicked
+    private void jTextField13MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField13.getBackground() == Color.green) {
             clicou = false;
@@ -1237,9 +1236,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField13MouseClicked
+    }                                         
 
-    private void jTextField18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField18MouseClicked
+    private void jTextField18MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField18.getBackground() == Color.green) {
             clicou = false;
@@ -1263,9 +1262,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField18MouseClicked
+    }                                         
 
-    private void jTextField19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField19MouseClicked
+    private void jTextField19MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField19.getBackground() == Color.green) {
             clicou = false;
@@ -1289,9 +1288,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField19MouseClicked
+    }                                         
 
-    private void jTextField20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField20MouseClicked
+    private void jTextField20MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField20.getBackground() == Color.green) {
             clicou = false;
@@ -1315,9 +1314,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField20MouseClicked
+    }                                         
 
-    private void jTextField25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField25MouseClicked
+    private void jTextField25MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField25.getBackground() == Color.green) {
             clicou = false;
@@ -1341,9 +1340,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField25MouseClicked
+    }                                         
 
-    private void jTextField24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField24MouseClicked
+    private void jTextField24MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField24.getBackground() == Color.green) {
             clicou = false;
@@ -1367,9 +1366,9 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField24MouseClicked
+    }                                         
 
-    private void jTextField23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField23MouseClicked
+    private void jTextField23MouseClicked(java.awt.event.MouseEvent evt) {                                          
         boolean clicou;
         if (jTextField23.getBackground() == Color.green) {
             clicou = false;
@@ -1393,29 +1392,29 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             String quant = "" + quantidade;
             jTextFieldQuantNum.setText(quant);
         }
-    }//GEN-LAST:event_jTextField23MouseClicked
+    }                                         
 
-    private void jTextField23MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField23MouseEntered
+    private void jTextField23MouseEntered(java.awt.event.MouseEvent evt) {                                          
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField23MouseEntered
+    }                                         
 
-    private void jTextField06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField06ActionPerformed
+    private void jTextField06ActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField06ActionPerformed
+    }                                            
 
-    private void resultadoCombinacao04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultadoCombinacao04ActionPerformed
+    private void resultadoCombinacao04ActionPerformed(java.awt.event.ActionEvent evt) {                                                      
         // TODO add your handling code here:
-    }//GEN-LAST:event_resultadoCombinacao04ActionPerformed
+    }                                                     
 
-    private void resultadoCombinacao03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultadoCombinacao03ActionPerformed
+    private void resultadoCombinacao03ActionPerformed(java.awt.event.ActionEvent evt) {                                                      
         // TODO add your handling code here:
-    }//GEN-LAST:event_resultadoCombinacao03ActionPerformed
+    }                                                     
 
-    private void resultadoCombinacao02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultadoCombinacao02ActionPerformed
+    private void resultadoCombinacao02ActionPerformed(java.awt.event.ActionEvent evt) {                                                      
         // TODO add your handling code here:
-    }//GEN-LAST:event_resultadoCombinacao02ActionPerformed
+    }                                                     
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         if(quantidade == 20){
 
             if (jTextField01.getBackground() == Color.green){
@@ -1523,19 +1522,19 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
             }
             
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }                                        
 
-    private void jTextField09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField09ActionPerformed
+    private void jTextField09ActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField09ActionPerformed
+    }                                            
 
-    private void jTextField05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField05ActionPerformed
+    private void jTextField05ActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField05ActionPerformed
+    }                                            
 
-    private void resultadoCombinacao01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultadoCombinacao01ActionPerformed
+    private void resultadoCombinacao01ActionPerformed(java.awt.event.ActionEvent evt) {                                                      
         // TODO add your handling code here:
-    }//GEN-LAST:event_resultadoCombinacao01ActionPerformed
+    }                                                     
 
     /**
      * @param args the command line arguments
@@ -1575,7 +1574,7 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -1632,5 +1631,5 @@ public class TelaSortePorNumeros20 extends javax.swing.JFrame {
     private javax.swing.JTextField resultadoCombinacao02;
     private javax.swing.JTextField resultadoCombinacao03;
     private javax.swing.JTextField resultadoCombinacao04;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
